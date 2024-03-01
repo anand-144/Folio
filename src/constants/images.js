@@ -33,13 +33,16 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
-
+import bgIMG from '../assets/bgIMG.png'
 
 import bgwhite from '../assets/bgwhite.gif'
+import bgWhite from '../assets/bgWhite.png'
+
 
 
 
 export default {
+  bgIMG,
   email,
   mobile,
   postman,
@@ -72,4 +75,5 @@ export default {
   circle,
   logo,
   bgwhite,
+  bgWhite,
 };

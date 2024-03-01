@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.scss';
 import {  motion } from 'framer-motion';
 import { GiBarbute, GiClosedBarbute } from "react-icons/gi";
+import '../../../src/App.scss'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
