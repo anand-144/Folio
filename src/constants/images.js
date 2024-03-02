@@ -25,10 +25,11 @@ import postman from '../assets/postman.svg';
 
 
 
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+import about1 from '../assets/about1.jpg';
+import about2 from '../assets/about2.jpg';
+import about3 from '../assets/about3.png';
+import about4 from '../assets/about4.png';
+import about5 from '../assets/about5.jpg';
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -67,10 +68,11 @@ export default {
   oracle,
   ps,
   tailwind,
-  about01,
-  about02,
-  about03,
-  about04,
+  about1,
+  about2,
+  about3,
+  about4,
+  about5,
   profile,
   circle,
   logo,

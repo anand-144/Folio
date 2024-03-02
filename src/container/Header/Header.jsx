@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
 
@@ -24,7 +25,7 @@ const Header = () => (
     >
       <div className="app__header-badge">
         <div className="badge-cmp app__flex">
-          <span>👋🏻</span>
+          <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
             <h1 className="head-text">Anand Singh</h1>
@@ -53,7 +54,6 @@ const Header = () => (
       />
     </motion.div>
 
-
     <motion.div
       variants={scaleVariants}
       whileInView={scaleVariants.whileInView}
@@ -68,4 +68,4 @@ const Header = () => (
   </div>
 );
 
-export default Header;
+export default AppWrap(Header, 'home');

@@ -68,6 +68,7 @@
     width: auto;
 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
   }
 
   .tag-cmp {
@@ -79,6 +80,7 @@
       text-transform: uppercase;
       text-align: right;
     }
+
   }
 
   span {
@@ -113,15 +115,15 @@
     align-items: flex-start;
   }
 
-  .p-text{
+  .p-text {
     font-size: 1rem;
     font-weight: bold;
-    &:hover{
-        color: var(--brown-color);
+    &:hover {
+      color: var(--brown-color);
     }
   }
 
-  .head-text{
+  .head-text {
     font-size: 3rem;
   }
 }

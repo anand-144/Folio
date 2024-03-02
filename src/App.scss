@@ -102,7 +102,6 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-  
     padding: 1rem;
   
     div {
@@ -112,11 +111,9 @@
       background-color: var(--white-color);
       margin: 0.25rem 0;
       border: 1px solid var(--lightGray-color);
-  
       display: flex;
       justify-content: center;
       align-items: center;
-  
       transition: all 0.3s ease-in-out;
   
       svg {
@@ -134,10 +131,31 @@
         }
       }
   
-      @media screen and (min-width: 2000px) {
+      &:nth-child(1):hover {
+        background-color: #0A66C2; // Change color for LinkedIn icon
+      }
+  
+      &:nth-child(2):hover {
+        background-color: #000; // Change color for Twitter icon
+      }
+  
+      &:nth-child(3):hover {
+        background-color: #4267B2; // Change color for Facebook icon
+      }
+  
+      &:nth-child(4):hover {
+        background-color: #C13584; // Change color for Instagram icon
+      }
+  
+      &:nth-child(5):hover {
+        background-color: #171515 ; // Change color for Github icon
+      }
+    }
+  
+    @media screen and (min-width: 2000px) {
+      div {
         width: 70px;
         height: 70px;
-  
         margin: 0.5rem 0;
   
         svg {
@@ -147,6 +165,7 @@
       }
     }
   }
+  
   
   .app__navigation {
     display: flex;
