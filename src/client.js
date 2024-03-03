@@ -5,7 +5,7 @@ export const client = sanityClient({
     projectId: process.env.REACT_APP_SANITY_PROJECT_ID,
     dataset: 'production',
     apiVersion: '2024-03-02',
-    useCdn: true, // Note: true should not be in quotes
+    useCdn: true, 
     token: process.env.REACT_APP_SANITY_TOKEN,
 });
 

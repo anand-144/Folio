@@ -115,6 +115,7 @@
       justify-content: center;
       align-items: center;
       transition: all 0.3s ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   
       svg {
         width: 15px;
@@ -125,6 +126,7 @@
       &:hover {
         background-color: var(--secondary-color);
         border-color: var(--secondary-color);
+        cursor: pointer;
   
         svg {
           color: var(--white-color);
@@ -133,22 +135,27 @@
   
       &:nth-child(1):hover {
         background-color: #0A66C2; // Change color for LinkedIn icon
+        box-shadow: 0 0 20px 10px rgba(10, 102, 194, 0.5);
       }
   
       &:nth-child(2):hover {
         background-color: #000; // Change color for Twitter icon
+        box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
       }
   
       &:nth-child(3):hover {
         background-color: #4267B2; // Change color for Facebook icon
+        box-shadow: 0 0 20px 10px rgba(66, 103, 178, 0.5);;
       }
   
       &:nth-child(4):hover {
         background-color: #C13584; // Change color for Instagram icon
+        box-shadow: 0 0 20px 10px rgba(193, 53, 132, 0.5);
       }
   
       &:nth-child(5):hover {
         background-color: #171515 ; // Change color for Github icon
+        box-shadow: 0 0 20px 10px rgba(23, 21, 21, 0.5);
       }
     }
   

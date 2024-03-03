@@ -11,6 +11,11 @@
   position: fixed;
   z-index: 2;
   font-family: var(--font-base);
+  
+  @media screen and (max-width: 900px){
+    height: 4rem;
+  }
+
 }
 
 .app__navbar-logo {
