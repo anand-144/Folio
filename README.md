@@ -22,13 +22,10 @@ Welcome to my portfolio website repository! This website showcases my work and p
 1. Clone the repository:
 2. git clone https://github.com/anand-144/Folio/
 
-3. Install dependencies:
-4. npm install
+3. Install dependencies: npm install
 
-5.  Start the development server:
-6.  npm start
+5.  Start the development server:  npm start
 
-7.  
 ## Usage
 
 Feel free to customize and modify the website to suit your own needs. Update the content in Sanity Studio to reflect your own projects, blog posts, and other information.
