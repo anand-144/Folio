@@ -9,7 +9,7 @@ Welcome to my portfolio website repository! This website showcases my work and p
 **Sanity:** Content management is handled through Sanity, providing a flexible and customizable backend for managing project data, blog posts, and more.
 **Frame Motion:** Frame Motion is utilized for animations, enhancing the visual appeal and interactivity of the website.
 
-<br />
+
 **Preview**
 <br />
 
