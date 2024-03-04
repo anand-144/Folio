@@ -1,4 +1,8 @@
 **Portfolio Website**
+
+![Portfolio Landing Page](https://i.postimg.cc/Dykf8s9D/Screenshot-2024-03-05-010445.png)
+
+
 <br />
 Welcome to my portfolio website repository! This website showcases my work and projects, utilizing a combination of ReactJS, SCSS, Sanity for content management, and Frame Motion for animations. The website is designed to be responsive, providing an optimal viewing experience across various devices.
 
