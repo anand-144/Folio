@@ -51,9 +51,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Acknowledgements**
 
-ReactJS
-SCSS
-Sanity
-Frame Motion
+ReactJS<br />
+SCSS<br />
+Sanity<br />
+Frame Motion<br />
 
 **Thank you for checking out my portfolio website! If you have any questions or feedback, feel free to reach out.**
