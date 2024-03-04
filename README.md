@@ -31,11 +31,11 @@ git clone https://github.com/anand-144/Folio.git
 
 **Install dependencies**
 
-npm install
+<u>npm install<u/>
 
 **Start the development server**
 
-npm start
+<u>npm start<u/>
 
 **Usage**
 
