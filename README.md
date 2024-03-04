@@ -4,7 +4,7 @@
 
 
 <br />
-Welcome to my portfolio website repository! This website showcases my work and projects, utilizing a combination of ReactJS, SCSS, Sanity for content management, and Frame Motion for animations. The website is designed to be responsive, providing an optimal viewing experience across various devices.
+Welcome to my portfolio website repository! This website showcases my work and projects, utilizing a combination of ReactJS, SCSS, Sanity for content management, and Frame Motion for animations. The website is designed to be responsive, providing an optimal viewing experience across various devices.<br/>
 
 **Features**
 
