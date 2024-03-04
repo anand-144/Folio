@@ -10,7 +10,6 @@ Welcome to my portfolio website repository! This website showcases my work and p
 **Frame Motion:** Frame Motion is utilized for animations, enhancing the visual appeal and interactivity of the website.
 <br />
 **Preview**
-
 View Website (https://afolio.netlify.app/)
 <br />
 
