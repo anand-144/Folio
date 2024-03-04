@@ -1,11 +1,10 @@
 import React from 'react';
-
 import { BsLinkedin, BsInstagram } from 'react-icons/bs';
-import { FaFacebookF , FaXTwitter, FaGithubAlt } from 'react-icons/fa6';
+import { FaFacebookF, FaTwitter, FaGithubAlt } from 'react-icons/fa';
 
 const handleLinkClick = (event, url) => {
   event.preventDefault();
-  window.location.href = url;
+  window.open(url, '_blank');
 };
 
 const SocialMedia = () => (
@@ -14,7 +13,7 @@ const SocialMedia = () => (
       <BsLinkedin />
     </div>
     <div onClick={(e) => handleLinkClick(e, process.env.REACT_APP_TWITTER_URL)}>
-      <FaXTwitter />
+      <FaTwitter />
     </div>
     <div onClick={(e) => handleLinkClick(e, process.env.REACT_APP_FACEBOOK_URL)}>
       <FaFacebookF />

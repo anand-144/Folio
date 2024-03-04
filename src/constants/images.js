@@ -38,11 +38,13 @@ import bgIMG from '../assets/bgIMG.png'
 
 import bgwhite from '../assets/bgwhite.gif'
 import bgWhite from '../assets/bgWhite.png'
+import send from '../assets/send.gif'
 
 
 
 
 export default {
+  send,
   bgIMG,
   email,
   mobile,
