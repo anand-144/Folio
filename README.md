@@ -17,7 +17,7 @@ Welcome to my portfolio website repository! This website showcases my work and p
 
 [View Website](https://afolio.netlify.app/)
 
-[Sanity Link] (http://localhost:3333/structure/works)
+[Sanity Link] (http://localhost:3333/structure)
 
 ## Installation
 
