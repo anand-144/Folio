@@ -52,7 +52,7 @@ export const Footer = () => {
       {!isFormSubmitted ? (
         <form
           className="app__footer-form app__flex"
-          action="https://formsubmit.co/your@email.com"
+          action="https://formsubmit.co/anandsingh14442@gmail.com"
           method="POST"
         >
           <div className="app__flex">
