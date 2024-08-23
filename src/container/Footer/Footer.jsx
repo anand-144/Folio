@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { IoDocumentTextOutline, IoPaperPlane } from "react-icons/io5";
+import { IoDocumentTextOutline } from "react-icons/io5";
 import { BsSend } from "react-icons/bs";
-import { client } from "../../client";
 import "./Footer.scss";
 
 export const Footer = () => {
@@ -32,22 +31,6 @@ export const Footer = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = () => {
-    setLoading(true);
-
-    const contact = {
-      _type: "contact",
-      name: name,
-      email: email,
-      message: message,
-    };
-
-    client.create(contact).then(() => {
-      setLoading(false);
-      setIsFormSubmitted(true);
-    });
-  };
-
   return (
     <>
       <h2 className="head-text">Take a coffee <span>&</span> chat with me</h2>
@@ -67,7 +50,11 @@ export const Footer = () => {
       </div>
 
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <form
+          className="app__footer-form app__flex"
+          action="https://formsubmit.co/your@email.com"
+          method="POST"
+        >
           <div className="app__flex">
             <input
               className="p-text"
@@ -76,6 +63,7 @@ export const Footer = () => {
               name="name"
               value={name}
               onChange={handleChangeInput}
+              required
             />
           </div>
           <div className="app__flex">
@@ -86,6 +74,7 @@ export const Footer = () => {
               name="email"
               value={email}
               onChange={handleChangeInput}
+              required
             />
           </div>
           <div>
@@ -95,9 +84,10 @@ export const Footer = () => {
               value={message}
               name="message"
               onChange={handleChangeInput}
+              required
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>
+          <button type="submit" className="p-text">
             {loading ? (
               <>
                 Sending <BsSend />
@@ -109,14 +99,16 @@ export const Footer = () => {
           <button type="button" className="p-text" onClick={onButtonClick}>
             Take a Look at Resume <IoDocumentTextOutline />
           </button>
-        </div>
+        </form>
       ) : (
         <div>
           <h3 className="head-text">Thank for getting in touch</h3>
         </div>
       )}
       <div>
-        <h1 className="head-text" style={{fontSize: '1rem', textDecoration: 'underline'}}><span>Vist </span>Again</h1>
+        <h1 className="head-text" style={{ fontSize: '1rem', textDecoration: 'underline' }}>
+          <span>Visit </span>Again
+        </h1>
       </div>
     </>
   );
